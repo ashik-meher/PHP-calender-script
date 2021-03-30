@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px;
+}
+
+.calender{
+    width: 100%;
+    border-collapse:collapse;
+    margin-top: 28px;
+}
+
+.calender caption{
+    margin-bottom: 10px;
+}
+
+.calender .header{
+    background: #555;
+    color:#fff;
+}
+.calender tr:nth-child(odd){
+    background: #f0f0f0;
+}
+.calender tr:nth-child(even){
+    background: #e0e0e0;
+}
+
+.calender th,
+.calender td {
+    padding: 15px;
+    border: 1px solid #eee;
+}
